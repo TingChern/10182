@@ -1,0 +1,50 @@
+package tw.tingchen.myproject.flowcontrol;
+
+public class Homework1018 {
+
+	public static void main(String[] args) {
+		//homework1
+		
+		/*
+		int month = 2;
+		int year = 2020;
+
+		if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+			System.out.println(month + " has 31 days");
+		} else if (month == 4 || month == 6 || month == 9 || month == 11) {
+			System.out.println(month + " has 30 days");
+		} else if (month == 2) {
+			if (year % 4 == 0) {
+				System.out.println(year + " is leap year ,so "+ month + " has 29 days");
+			} else {
+				System.out.println(month + " has 28 days");
+			}
+		} else {
+			System.out.println("Invalid month.");
+		}
+		System.out.println("finished");
+		*/
+		//homework1 end
+		
+		//homework2
+		int index=2;//1:攝氏
+		double temperature = 50.7;
+		
+		if(index==1) {
+			double tempf;
+			tempf = temperature*9/5+32;
+			System.out.println(temperature+" degree c ="+tempf+" degree f");
+		}
+		else if(index==2){
+			double tempc;
+			tempc = (temperature-32)*5/9;
+			System.out.println(temperature+" degree f ="+tempc+" degree c");
+		}
+		else {
+			System.out.println("invalid index.");
+		}
+		System.out.println("finished.");
+		//homework2 end
+	}
+
+}
