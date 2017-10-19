@@ -1,0 +1,14 @@
+nt a=1,b=2,c=3;
+		int j = b*b-4*a*c;
+		if(j==0) {
+			double x = -b/2/a;
+			System.out.printf("重根x=%f",x);
+		}
+		if(j>0) {
+			double x1 = (-b+Math.sqrt(j))/2/a;
+			double x2 = (-b-Math.sqrt(j))/2/a;
+			System.out.printf("x1=%f,x2=%f",x1,x2);
+		}
+		if(j<0) {
+			System.out.printf("No Root.");
+		}
