@@ -1,0 +1,19 @@
+package TestOOP20171023;
+
+import java.util.Scanner;
+
+public class TryOOP2 {
+
+	public static void main(String[] args) {
+		Scanner console = new Scanner(System.in);
+		String name = console.nextLine();
+		int age = console.nextInt();
+		float score = console.nextFloat();
+		String withspace = console.next();
+		String nospace = console.next();
+		String testspace = console.next();
+
+		System.out.printf("%s %d %f %s %s %s", name,age,score,withspace,nospace,testspace);
+	}
+
+}
